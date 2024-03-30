@@ -1,0 +1,1152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CR7</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- --------favicon-------- -->
+    <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
+    <!-- font Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,800;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- cdn bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+    <!-- splide -->
+    <link rel="stylesheet" href="https://unpkg.com/@splidejs/splide@3/dist/css/splide.min.css">
+    <script src="https://unpkg.com/@splidejs/splide@3/dist/js/splide.min.js"></script>
+  </head>
+  <body>
+    <nav>
+      <div class="nav">
+        <div class="nav1">
+          <div class="con-nav1">
+            <div class="logo-nav1">
+              <a href=""> <img src="img/logo.png" alt="" /></a>
+            </div>
+            <div class="searching-nav1">
+              <input
+                type="search"
+                name=""
+                id=""
+                placeholder="Cari.."
+              />
+              <div class="kotak-search-nav1">
+                <p>CARI</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="andoi2" id="modal">
+          <div class="con-andoi2">
+            <div class="searching-nav2">
+              <input
+                type="search"
+                name=""
+                id=""
+                placeholder="Cari.."
+              />
+              <div class="cari-andro">
+                <p>CARI</p>
+              </div>
+              <div class="close-andro" onclick="mod2()">
+                <i class="bi bi-x-lg"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="nav2" id="nav2">
+          <div class="splide" id="nav-slider">
+            <div class="con-nav2 splide__track">
+              <ul class="splide__list">
+                <p class="splide__slide andoi" onclick="mod()">
+                  <i class="bi bi-search"></i> CARI
+                </p>
+                <li class="splide__slide">
+                  <a href=""><i class="bi bi-house-dash-fill"></i> BERITA</a>
+                </li>
+                <li class="splide__slide">
+                  <a href=""><i class="bi bi-newspaper"></i> KUIS</a>
+                </li>
+                <li class="splide__slide">
+                  <a href=""><i class="bi bi-star-fill"></i> POPULER</a>
+                </li>
+                <li class="splide__slide">
+                  <a href=""><i class="bi bi-xbox"></i> BOLA</a>
+                </li>
+                <li class="splide__slide">
+                  <a href=""><i class="bi bi-camera"></i> PRODUK</a>
+                </li>
+                <li class="splide__slide">
+                  <a href=""><i class="bi bi-coin"></i> BISNIS</a>
+                </li>
+                <li class="splide__slide">
+                  <a href=""><i class="bi bi-cup-hot"></i> HOT</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </nav>
+    <header>
+      <div class="header">
+        <div class="con-header">
+          <div class="header1">
+            <div class="con-header1">
+              <div
+                style="
+                  --swiper-navigation-color: #fff;
+                  --swiper-pagination-color: #fff;
+                "
+                class="swiper mySwiper2"
+              >
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <a href=""><img src="img/1.jpg" /></a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href=""><img src="img/2.jpg" /></a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href=""><img src="img/3.jpg" /></a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href=""><img src="img/4.jpg" /></a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href=""><img src="img/3.jpg" /></a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href=""><img src="img/1.jpg" /></a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href=""><img src="img/1.jpg" /></a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href=""><img src="img/1.jpg" /></a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href=""><img src="img/1.jpg" /></a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href=""><img src="img/1.jpg" /></a>
+                  </div>
+                </div>
+                <div class="swiper-button-next" style="display: none;"></div>
+                <div class="swiper-button-prev" style="display: none;"></div>
+              </div>
+              <div thumbsSlider="" class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <img src="img/1.jpg" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="img/2.jpg" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="img/3.jpg" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="img/4.jpg" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="img/3.jpg" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="img/1.jpg" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="img/1.jpg" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="img/1.jpg" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="img/1.jpg" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="img/1.jpg" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="header2">
+            <div class="con-header2">
+              <h1 class="item1-header2">BERITA TERUPDATE</h1>
+              <a class="item2-header2" href=""
+                ><img src="img/banner2.jpg" alt=""
+              /></a>
+              <div class="con-item3-header2">
+                <div class="item31-header2">
+                  <a class="item31a-header2" href=""
+                    ><img src="img/pro.jpg" alt=""
+                  /></a>
+                  <a class="item31b-header2" href=""
+                    ><p>
+                      Cara Memimpin Doa Syukuran, Lengkap beserta Urutan
+                      Bacaannya
+                    </p>
+                    <span class="header2-span">13/02/2023</span>
+                  </a>
+                </div>
+                <div class="item31-header2">
+                  <a class="item31a-header2" href=""
+                    ><img src="img/pro1.jpg" alt=""
+                  /></a>
+                  <a class="item31b-header2" href=""
+                    ><p>
+                      Infografis Efek Kejut Last Minute Pengumuman Bakal
+                      Cawapres dan Bursa Pendamping Anies
+                    </p>
+                    <span class="header2-span">13/02/2023</span>
+                  </a>
+                </div>
+                <div class="item31-header2">
+                  <a class="item31a-header2" href=""
+                    ><img src="img/pro2.jpg" alt=""
+                  /></a>
+                  <a class="item31b-header2" href=""
+                    ><p>
+                      Bursa Transfer Musim Panas Liga Inggris 2023, Siapa Saja
+                      Pemain yang Masuk dan Keluar?
+                    </p>
+                    <span class="header2-span">13/02/2023</span>
+                  </a>
+                </div>
+                <div class="item31-header2">
+                  <a class="item31a-header2" href=""
+                    ><img src="img/pro3.jpg" alt=""
+                  /></a>
+                  <a class="item31b-header2" href=""
+                    ><p>
+                      Profil Brigjen Endar Priantoro yang Kembali Jadi Direktur
+                      Penyelidikan KPK
+                    </p>
+                    <span class="header2-span">13/02/2023</span>
+                  </a>
+                </div>
+                <div class="item31-header2">
+                  <a class="item31a-header2" href=""
+                    ><img src="img/pro4.jpg" alt=""
+                  /></a>
+                  <a class="item31b-header2" href=""
+                    ><p>
+                      Deretan Lagu Hit Coco Lee dan Penghargaan Karier
+                      Bermusiknya
+                    </p>
+                    <span class="header2-span">13/02/2023</span>
+                  </a>
+                </div>
+                <div class="item31-header2">
+                  <a class="item31a-header2" href=""
+                    ><img src="img/pro5.jpg" alt=""
+                  /></a>
+                  <a class="item31b-header2" href=""
+                    ><p>
+                      Cara Memimpin Doa Syukuran, Lengkap beserta Urutan
+                      Bacaannya
+                    </p>
+                    <span class="header2-span">13/02/2023</span>
+                  </a>
+                </div>
+                <div class="item31-header2">
+                  <a class="item31a-header2" href=""
+                    ><img src="img/pro6.jpg" alt=""
+                  /></a>
+                  <a class="item31b-header2" href=""
+                    ><p>
+                      Hari Ciuman Internasional: Kissing Ternyata Bisa Bakar
+                      Kalori
+                    </p>
+                    <span class="header2-span">13/02/2023</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="main">
+        <div class="con-main">
+          <div class="main1">
+            <p>BERITA POPULER</p>
+            <a href="">SEMUA BERITA <i class="bi bi-three-dots"></i></a>
+          </div>
+          <div class="main2">
+            <div class="main21">
+              <div class="con-img-main21">
+                <a href=""><img src="img/ss.jpg" alt="" /></a>
+              </div>
+              <div class="con-teks-main21">
+                <a href=""
+                  ><p>
+                    Indonesia Siap Jalani AFF U-19 Women's Championship 2023
+                  </p></a
+                >
+                <span
+                  >Namanya adalah Dewi Anggraeni, lahir di Tasikmalaya, 30
+                  Desember 1997, ia adalah anak ketiga dari lima bersaudara,
+                  buah dari pasangan Kamaruddin dan Siti Zubaidah. Dewi adalah
+                  panggilan akrabnya, ia terlahir di keluarga yang sangat
+                  sederhana. Ayahnya seorang guru honorer di sebuah madrasah
+                  tsanawiyah</span
+                >
+              </div>
+            </div>
+            <div class="main22">
+              <div class="con-main22">
+                <div class="item-main22">
+                  <div class="img-item-main22">
+                    <a href=""><img src="img/ban1.jpg" alt="" /></a>
+                  </div>
+                  <div class="item-main22-teks">
+                    <a href="">
+                      <p>
+                        Carlo Ancelotti Bergabung,Bakal Ditangani Fernando Diniz
+                      </p>
+                    </a>
+                    <span> 04/07/2023</span>
+                  </div>
+                </div>
+                <div class="item-main22">
+                  <div class="img-item-main22">
+                    <a href=""><img src="img/ban2.jpg" alt="" /></a>
+                  </div>
+                  <div class="item-main22-teks">
+                    <a href="">
+                      <p>
+                        Potret Mesra Coco Lee Sebelum Meninggal Dunia Bunuh Diri
+                      </p>
+                    </a>
+                    <span> 04/07/2023</span>
+                  </div>
+                </div>
+                <div class="item-main22">
+                  <div class="img-item-main22">
+                    <a href=""><img src="img/ban3.jpg" alt="" /></a>
+                  </div>
+                  <div class="item-main22-teks">
+                    <a href="">
+                      <p>
+                        Pertarungan Antar Fans Messiun dan Donaldodo Di Akhir
+                        Musim
+                      </p>
+                    </a>
+                    <span> 04/07/2023</span>
+                  </div>
+                </div>
+                <div class="item-main22">
+                  <div class="img-item-main22">
+                    <a href=""><img src="img/ban4.jpg" alt="" /></a>
+                  </div>
+                  <div class="item-main22-teks">
+                    <a href="">
+                      <p>
+                        Tak Terduga Ronaldo Selingkuh Dengan Artis Hollywood
+                      </p>
+                    </a>
+                    <span> 04/07/2023</span>
+                  </div>
+                </div>
+                <div class="item-main22">
+                  <div class="img-item-main22">
+                    <a href=""><img src="img/ban5.jpg" alt="" /></a>
+                  </div>
+                  <div class="item-main22-teks">
+                    <a href="">
+                      <p>
+                        Perbaiki JIS, Erick Thohir Ingin Suporter Pulang dengan
+                        Selamat
+                      </p>
+                    </a>
+                    <span> 04/07/2023</span>
+                  </div>
+                </div>
+                <div class="item-main22">
+                  <div class="img-item-main22">
+                    <a href=""><img src="img/ban6.jpg" alt="" /></a>
+                  </div>
+                  <div class="item-main22-teks">
+                    <a href="">
+                      <p>
+                        Pemain Basket Luar Negri Di duga Sekingkuh dengan Artis
+                        Indonesia
+                      </p>
+                    </a>
+                    <span> 04/07/2023</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <article>
+      <div class="article">
+        <div class="con-article">
+          <div class="article1">
+            <p class="judul-article1">BERITA UTAMA LAINNYA</p>
+            <div class="isi-article1">
+              <div class="con-img-article1">
+                <a href=""><img src="img/fo14.jpg" alt="" /></a>
+              </div>
+              <div class="con-isi-article1">
+                <a href=""
+                  ><p>
+                    Pemerintah Inspeksi JIS dan Sebut Tak Sesuai Standar FIFA,
+                    Anies Baswedan Tersinggung?
+                  </p></a
+                >
+                <span
+                  >Muhammad Mulkan Fauzi atau biasa dipanggil Mulkan oleh
+                  orang-orang di sekitarnya dikenal memiliki hobi membaca buku
+                  dan bermain futsal. Ia lahir di Kota Semarang pada 30 Oktober
+                  1997</span
+                >
+              </div>
+            </div>
+            <div class="isi-article1">
+              <div class="con-img-article1">
+                <a href=""><img src="img/fo15.jpg" alt="" /></a>
+              </div>
+              <div class="con-isi-article1">
+                <a href=""
+                  ><p>
+                    Pino Bahari: Legenda Emas Asian Games yang Belum Terulang
+                  </p></a
+                >
+                <span
+                  >Muhammad Mulkan Fauzi atau biasa dipanggil Mulkan oleh
+                  orang-orang di sekitarnya dikenal memiliki hobi membaca buku
+                  dan bermain futsal. Ia lahir di Kota Semarang pada 30 Oktober
+                  1997</span
+                >
+              </div>
+            </div>
+            <div class="isi-article1">
+              <div class="con-img-article1">
+                <a href=""><img src="img/fo16.jpg" alt="" /></a>
+              </div>
+              <div class="con-isi-article1">
+                <a href=""
+                  ><p>
+                    10 Pemain Nomor 7 yang Gagal di MU: Mount Korban Berikutnya?
+                  </p></a
+                >
+                <span
+                  >Muhammad Mulkan Fauzi atau biasa dipanggil Mulkan oleh
+                  orang-orang di sekitarnya dikenal memiliki hobi membaca buku
+                  dan bermain futsal. Ia lahir di Kota Semarang pada 30 Oktober
+                  1997</span
+                >
+              </div>
+            </div>
+            <div class="isi-article1">
+              <div class="con-img-article1">
+                <a href=""><img src="img/fo1.jpg" alt="" /></a>
+              </div>
+              <div class="con-isi-article1">
+                <a href=""
+                  ><p>
+                    Wajah Segar dan Sangar Indonesia di Pekan Pertama Liga 1
+                  </p></a
+                >
+                <span
+                  >Muhammad Mulkan Fauzi atau biasa dipanggil Mulkan oleh
+                  orang-orang di sekitarnya dikenal memiliki hobi membaca buku
+                  dan bermain futsal. Ia lahir di Kota Semarang pada 30 Oktober
+                  1997</span
+                >
+              </div>
+            </div>
+            <div class="isi-article1">
+              <div class="con-img-article1">
+                <a href=""><img src="img/fo2.jpg" alt="" /></a>
+              </div>
+              <div class="con-isi-article1">
+                <a href=""
+                  ><p>
+                    Ancelotti, Simbol Nafsu Tinggi Brasil Kembali Jadi Tim
+                    Pemenang Olahraga INDEKS BERITA
+                  </p></a
+                >
+                <span
+                  >Muhammad Mulkan Fauzi atau biasa dipanggil Mulkan oleh
+                  orang-orang di sekitarnya dikenal memiliki hobi membaca buku
+                  dan bermain futsal. Ia lahir di Kota Semarang pada 30 Oktober
+                  1997</span
+                >
+              </div>
+            </div>
+            <div class="isi-article1">
+              <div class="con-img-article1">
+                <a href=""><img src="img/fo3.jpg" alt="" /></a>
+              </div>
+              <div class="con-isi-article1">
+                <a href=""
+                  ><p>
+                    Pemerintah Inspeksi JIS dan Sebut Tak Sesuai Standar FIFA,
+                    Anies Baswedan Tersinggung?
+                  </p></a
+                >
+                <span
+                  >Muhammad Mulkan Fauzi atau biasa dipanggil Mulkan oleh
+                  orang-orang di sekitarnya dikenal memiliki hobi membaca buku
+                  dan bermain futsal. Ia lahir di Kota Semarang pada 30 Oktober
+                  1997</span
+                >
+              </div>
+            </div>
+            <div class="isi-article1">
+              <div class="con-img-article1">
+                <a href=""><img src="img/fo4.jpg" alt="" /></a>
+              </div>
+              <div class="con-isi-article1">
+                <a href=""
+                  ><p>
+                    Pemerintah Inspeksi JIS dan Sebut Tak Sesuai Standar FIFA,
+                    Anies Baswedan Tersinggung?
+                  </p></a
+                >
+                <span
+                  >Muhammad Mulkan Fauzi atau biasa dipanggil Mulkan oleh
+                  orang-orang di sekitarnya dikenal memiliki hobi membaca buku
+                  dan bermain futsal. Ia lahir di Kota Semarang pada 30 Oktober
+                  1997</span
+                >
+              </div>
+            </div>
+            <div class="isi-article1">
+              <div class="con-img-article1">
+                <a href=""><img src="img/fo5.jpg" alt="" /></a>
+              </div>
+              <div class="con-isi-article1">
+                <a href=""
+                  ><p>
+                    Pemerintah Inspeksi JIS dan Sebut Tak Sesuai Standar FIFA,
+                    Anies Baswedan Tersinggung?
+                  </p></a
+                >
+                <span
+                  >Muhammad Mulkan Fauzi atau biasa dipanggil Mulkan oleh
+                  orang-orang di sekitarnya dikenal memiliki hobi membaca buku
+                  dan bermain futsal. Ia lahir di Kota Semarang pada 30 Oktober
+                  1997</span
+                >
+              </div>
+            </div>
+            <div class="isi-article1">
+              <div class="con-img-article1">
+                <a href=""><img src="img/fo6.jpg" alt="" /></a>
+              </div>
+              <div class="con-isi-article1">
+                <a href=""
+                  ><p>
+                    Ancelotti, Simbol Nafsu Tinggi Brasil Kembali Jadi Tim
+                    Pemenang Olahraga INDEKS BERITA Muhammad Mulkan Fauzi atau
+                    biasa dipanggil Mulkan
+                  </p></a
+                >
+                <span
+                  >Muhammad Mulkan Fauzi atau biasa dipanggil Mulkan oleh
+                  orang-orang di sekitarnya dikenal memiliki hobi membaca buku
+                  dan bermain futsal. Ia lahir di Kota Semarang pada 30 Oktober
+                  1997</span
+                >
+              </div>
+            </div>
+            <div class="isi-article1">
+              <div class="con-img-article1">
+                <a href=""><img src="img/fo7.jpg" alt="" /></a>
+              </div>
+              <div class="con-isi-article1">
+                <a href=""
+                  ><p>
+                    Perjalanan Mengungkap Warisan Budaya Dunia: Menyingkap
+                    Sejarah, Keindahan, dan Signifikansinya dalam Destinasi
+                    Bersejarah yang Mengagumkan
+                  </p></a
+                >
+                <span
+                  >Muhammad Mulkan Fauzi atau biasa dipanggil Mulkan oleh
+                  orang-orang di sekitarnya dikenal memiliki hobi membaca buku
+                  dan bermain futsal. Ia lahir di Kota Semarang pada 30 Oktober
+                  1997</span
+                >
+              </div>
+            </div>
+            <div class="isi-article1">
+              <div class="con-img-article1">
+                <a href=""><img src="img/fo8.jpg" alt="" /></a>
+              </div>
+              <div class="con-isi-article1">
+                <a href=""
+                  ><p>
+                    Inovasi Teknologi Medis yang Mempertajam Masa Depan
+                    Kesehatan: Mendobrak Batasan dalam Diagnosis, Perawatan, dan
+                    Pemulihan Penyakit
+                  </p></a
+                >
+                <span
+                  >Muhammad Mulkan Fauzi atau biasa dipanggil Mulkan oleh
+                  orang-orang di sekitarnya dikenal memiliki hobi membaca buku
+                  dan bermain futsal. Ia lahir di Kota Semarang pada 30 Oktober
+                  1997</span
+                >
+              </div>
+            </div>
+            <div class="isi-article1">
+              <div class="con-img-article1">
+                <a href=""><img src="img/fo9.jpg" alt="" /></a>
+              </div>
+              <div class="con-isi-article1">
+                <a href=""
+                  ><p>
+                    Mengubah Dunia Melalui Gerakan Sosial: Kisah Inspiratif dan
+                    Strategi Perubahan dalam Masyarakat yang Berdampak Positif
+                  </p></a
+                >
+                <span
+                  >Muhammad Mulkan Fauzi atau biasa dipanggil Mulkan oleh
+                  orang-orang di sekitarnya dikenal memiliki hobi membaca buku
+                  dan bermain futsal. Ia lahir di Kota Semarang pada 30 Oktober
+                  1997</span
+                >
+              </div>
+            </div>
+            <div class="isi-article1">
+              <div class="con-img-article1">
+                <a href=""><img src="img/fo10.jpg" alt="" /></a>
+              </div>
+              <div class="con-isi-article1">
+                <a href=""
+                  ><p>
+                    Menaklukkan Pikiran dan Emosi: Membangun Kecerdasan
+                    Emosional yang Kokoh untuk Sukses, Kesejahteraan, dan
+                    Kehidupan yang Bermakna
+                  </p></a
+                >
+                <span
+                  >Muhammad Mulkan Fauzi atau biasa dipanggil Mulkan oleh
+                  orang-orang di sekitarnya dikenal memiliki hobi membaca buku
+                  dan bermain futsal. Ia lahir di Kota Semarang pada 30 Oktober
+                  1997</span
+                >
+              </div>
+            </div>
+            <div class="isi-article1">
+              <div class="con-img-article1">
+                <a href=""><img src="img/fo11.jpg" alt="" /></a>
+              </div>
+              <div class="con-isi-article1">
+                <a href=""
+                  ><p>
+                    Keajaiban Arsitektur Modern: Menginspirasi Desain Bangunan
+                    Ikonik yang Menggabungkan Estetika, Keberlanjutan, dan
+                    Fungsionalitas
+                  </p></a
+                >
+                <span
+                  >Muhammad Mulkan Fauzi atau biasa dipanggil Mulkan oleh
+                  orang-orang di sekitarnya dikenal memiliki hobi membaca buku
+                  dan bermain futsal. Ia lahir di Kota Semarang pada 30 Oktober
+                  1997</span
+                >
+              </div>
+            </div>
+            <div class="isi-article1">
+              <div class="con-img-article1">
+                <a href=""><img src="img/fo12.jpg" alt="" /></a>
+              </div>
+              <div class="con-isi-article1">
+                <a href=""
+                  ><p>
+                    Mendobrak Paradigma Pendidikan Tradisional: Membangun Model
+                    Pembelajaran Interaktif, Kolaboratif, dan Berbasis Teknologi
+                    untuk Generasi Mendatang
+                  </p></a
+                >
+                <span
+                  >Muhammad Mulkan Fauzi atau biasa dipanggil Mulkan oleh
+                  orang-orang di sekitarnya dikenal memiliki hobi membaca buku
+                  dan bermain futsal. Ia lahir di Kota Semarang pada 30 Oktober
+                  1997</span
+                >
+              </div>
+            </div>
+            <div class="isi-article1">
+              <div class="con-img-article1">
+                <a href=""><img src="img/fo13.jpg" alt="" /></a>
+              </div>
+              <div class="con-isi-article1">
+                <a href=""
+                  ><p>
+                    Menuju Era Transportasi Ramah Lingkungan: Solusi Inovatif
+                    dan Revolusi dalam Mobilitas yang Mengurangi Dampak Negatif
+                    terhadap Lingkungan
+                  </p></a
+                >
+                <span
+                  >Muhammad Mulkan Fauzi atau biasa dipanggil Mulkan oleh
+                  orang-orang di sekitarnya dikenal memiliki hobi membaca buku
+                  dan bermain futsal. Ia lahir di Kota Semarang pada 30 Oktober
+                  1997</span
+                >
+              </div>
+            </div>
+          </div>
+          <div class="article2">
+            <div class="con-article2">
+              <p class="p1-article2">LIVE STREAMING</p>
+              <div class="con-vidio-article2">
+                <video src="vidio/vid.mp4" controls autoplay></video>
+              </div>
+              <p class="p2-article2">TRENDING</p>
+              <a class="a-article2" href=""># Bulutangkis</a>
+              <a class="a-article2" href=""># Sepak Bola</a>
+              <a class="a-article2" href=""># Basket</a>
+              <a class="a-article2" href=""># Perselingkuhan</a>
+              <a class="a-article2" href=""># Bola Terbang</a>
+              <a class="a-article2" href=""># Agamis</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </article>
+    <footer>
+      <div class="panah" id="panah">
+        <div class="con-panah">
+          <p><i class="bi bi-caret-up"></i></p>
+        </div>
+      </div>
+      <figure class="footer-logo">
+        <img src="img/footer.png" />
+      </figure>
+      <div class="footer-sosmed">
+        <a href="" aria-label="link fb">
+          <svg
+            width="22"
+            height="22"
+            viewBox="0 0 22 22"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g clip-path="url(#clip0_692_1229)">
+              <path
+                d="M22 11C22 4.9 17.1 0 11 0C4.9 0 0 4.9 0 11C0 16.5 4 21 9.3 21.9V14.2H6.5V11H9.3V8.6C9.3 5.8 10.9 4.3 13.5 4.3C14.7 4.3 16 4.5 16 4.5V7.2H14.6C13.2 7.2 12.8 8 12.8 8.9V11H15.9L15.4 14.2H12.8V21.9C18 21 22 16.5 22 11Z"
+                fill="#396EB5"
+              />
+              <path
+                d="M15.3 14.2008L15.8 11.0008H12.7V8.90078C12.7 8.00078 13.1 7.20078 14.5 7.20078H15.9V4.50078C15.9 4.50078 14.6 4.30078 13.4 4.30078C10.9 4.30078 9.2 5.80078 9.2 8.60078V11.0008H6.5V14.2008H9.3V21.9008C9.8 22.0008 10.4 22.0008 11 22.0008C11.6 22.0008 12.2 22.0008 12.7 21.9008V14.2008H15.3Z"
+                fill="white"
+              />
+            </g>
+            <defs>
+              <clipPath id="clip0_692_1229">
+                <rect width="22" height="22" fill="white" />
+              </clipPath>
+            </defs>
+          </svg>
+        </a>
+        <a href="" aria-label="link twitter">
+          <svg
+            width="22"
+            height="22"
+            viewBox="0 0 22 22"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g clip-path="url(#clip0_309_556)">
+              <path
+                d="M0.0484635 0.0710773C0.0906302 0.131577 8.4873 12.3535 8.56246 12.4635L8.58905 12.502L4.34305 17.4364C2.0083 20.1507 0.0750469 22.3974 0.0475469 22.4286L-0.00195312 22.4863H0.968797H1.93955L5.6933 18.123C7.75763 15.7232 9.44796 13.7597 9.45071 13.7597C9.45346 13.7597 10.8046 15.7232 12.4528 18.123L15.4503 22.4863H18.7255H22.0008L21.9742 22.4469C21.9595 22.4258 19.9575 19.5127 17.5265 15.9734C15.0946 12.4342 13.1045 9.53199 13.1045 9.52374C13.1036 9.51641 14.9415 7.37324 17.1874 4.76258C19.4332 2.15191 21.273 0.0124111 21.2739 0.00782776C21.2757 0.00415993 20.8421 0.000494003 20.3105 0.000494003H19.3434L15.7922 4.12733C13.8397 6.39699 12.2383 8.25508 12.2328 8.25599C12.2282 8.25783 10.9476 6.40066 9.38746 4.13008L6.5513 0.000494003H3.27513H-0.00103646L0.0484635 0.0710773ZM6.18096 2.26191C8.78246 5.98266 19.3305 21.0728 19.336 21.0811C19.3415 21.0902 19.0427 21.093 17.8538 21.093H16.3642L13.2384 16.6224C11.5196 14.163 8.43321 9.74833 6.3808 6.81224C4.32838 3.87616 2.64905 1.47083 2.64905 1.46624C2.64905 1.46166 3.27513 1.45799 4.13405 1.45799H5.61813L6.18096 2.26191Z"
+                fill="white"
+              />
+            </g>
+            <defs>
+              <clipPath id="clip0_309_556">
+                <rect width="22" height="22.4858" fill="white" />
+              </clipPath>
+            </defs>
+          </svg>
+        </a>
+        <a href="" aria-label="link ig">
+          <svg
+            width="22"
+            height="22"
+            viewBox="0 0 22 22"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g clip-path="url(#clip0_309_561)">
+              <path
+                d="M15.6055 0H6.34371C4.66739 0.0197622 3.0653 0.694461 1.87988 1.87988C0.694461 3.0653 0.0197622 4.66739 0 6.34371L0 16.1511C0.0197622 17.8274 0.694461 19.4295 1.87988 20.6149C3.0653 21.8003 4.66739 22.475 6.34371 22.4948H15.6055C17.2819 22.475 18.8839 21.8003 20.0694 20.6149C21.2548 19.4295 21.9295 17.8274 21.9492 16.1511V6.34371C21.9295 4.66739 21.2548 3.0653 20.0694 1.87988C18.8839 0.694461 17.2819 0.0197622 15.6055 0ZM20.2999 16.2018C20.2932 17.4482 19.7952 18.6416 18.9139 19.5229C18.0326 20.4042 16.8392 20.9022 15.5928 20.9089H6.34371C5.09739 20.9022 3.904 20.4042 3.0227 19.5229C2.1414 18.6416 1.64334 17.4482 1.63668 16.2018V6.34371C1.65657 5.10622 2.16046 3.92576 3.04034 3.05537C3.92023 2.18497 5.10608 1.6939 6.34371 1.68743H15.6055C16.841 1.69721 18.0236 2.18973 18.9008 3.05978C19.7779 3.92982 20.2801 5.1084 20.2999 6.34371V16.2018Z"
+                fill="url(#paint0_linear_309_561)"
+              />
+              <path
+                d="M11.0382 5.16406C9.83876 5.16406 8.66624 5.51974 7.66892 6.18613C6.6716 6.85252 5.89429 7.79968 5.43527 8.90783C4.97626 10.016 4.85616 11.2354 5.09016 12.4118C5.32417 13.5882 5.90176 14.6688 6.74991 15.517C7.59806 16.3651 8.67867 16.9427 9.85508 17.1767C11.0315 17.4107 12.2509 17.2906 13.359 16.8316C14.4672 16.3726 15.4144 15.5953 16.0807 14.598C16.7471 13.6006 17.1028 12.4281 17.1028 11.2287C17.1028 10.4322 16.946 9.64362 16.6412 8.90783C16.3364 8.17204 15.8897 7.50349 15.3265 6.94034C14.7634 6.37719 14.0948 5.93048 13.359 5.6257C12.6233 5.32093 11.8346 5.16406 11.0382 5.16406ZM11.0382 15.4536C10.201 15.4611 9.38048 15.2197 8.68071 14.7601C7.98094 14.3005 7.4335 13.6433 7.10788 12.872C6.78226 12.1007 6.69315 11.25 6.85184 10.428C7.01054 9.60595 7.40989 8.84959 7.99921 8.25491C8.58853 7.66023 9.34125 7.25405 10.1618 7.08792C10.9824 6.92179 11.8338 7.00321 12.6081 7.32183C13.3823 7.64046 14.0444 8.18192 14.5103 8.87751C14.9763 9.57309 15.225 10.3914 15.2251 11.2287C15.2217 12.3448 14.7769 13.4142 13.9876 14.2034C13.1984 14.9927 12.129 15.4375 11.0129 15.4409L11.0382 15.4536Z"
+                fill="url(#paint1_linear_309_561)"
+              />
+              <path
+                d="M17.1915 6.49626C17.9833 6.49626 18.6252 5.85439 18.6252 5.06259C18.6252 4.27079 17.9833 3.62891 17.1915 3.62891C16.3997 3.62891 15.7578 4.27079 15.7578 5.06259C15.7578 5.85439 16.3997 6.49626 17.1915 6.49626Z"
+                fill="url(#paint2_linear_309_561)"
+              />
+            </g>
+            <defs>
+              <linearGradient
+                id="paint0_linear_309_561"
+                x1="1.72549"
+                y1="20.579"
+                x2="20.2745"
+                y2="2.02999"
+                gradientUnits="userSpaceOnUse"
+              >
+                <stop stop-color="#F9BA16" />
+                <stop offset="0.49" stop-color="#ED1C24" />
+                <stop offset="1" stop-color="#B43091" />
+              </linearGradient>
+              <linearGradient
+                id="paint1_linear_309_561"
+                x1="6.74988"
+                y1="15.5043"
+                x2="15.3266"
+                y2="6.92762"
+                gradientUnits="userSpaceOnUse"
+              >
+                <stop stop-color="#F9BA16" />
+                <stop offset="0.49" stop-color="#ED1C24" />
+                <stop offset="1" stop-color="#B43091" />
+              </linearGradient>
+              <linearGradient
+                id="paint2_linear_309_561"
+                x1="16.1765"
+                y1="6.07758"
+                x2="18.2065"
+                y2="4.04759"
+                gradientUnits="userSpaceOnUse"
+              >
+                <stop stop-color="#F9BA16" />
+                <stop offset="0.49" stop-color="#ED1C24" />
+                <stop offset="1" stop-color="#B43091" />
+              </linearGradient>
+              <clipPath id="clip0_309_561">
+                <rect width="22" height="22.609" fill="white" />
+              </clipPath>
+            </defs>
+          </svg>
+        </a>
+        <a href="" aria-label="link yt">
+          <svg
+            width="22"
+            height="22"
+            viewBox="0 0 22 22"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M21.5 5.69922C21.2 4.69922 20.5 3.99922 19.6 3.69922C17.9 3.19922 11 3.19922 11 3.19922C11 3.19922 4.1 3.19922 2.4 3.69922C1.5 3.99922 0.7 4.69922 0.5 5.69922C0 7.39922 0 10.9992 0 10.9992C0 10.9992 0 14.5992 0.5 16.2992C0.8 17.2992 1.5 17.9992 2.4 18.2992C4.1 18.7992 11 18.7992 11 18.7992C11 18.7992 17.9 18.7992 19.6 18.2992C20.5 17.9992 21.3 17.2992 21.5 16.2992C22 14.5992 22 10.9992 22 10.9992C22 10.9992 22 7.39922 21.5 5.69922Z"
+              fill="#FF0000"
+            />
+            <path
+              d="M8.7998 14.2992L14.4998 10.9992L8.7998 7.69922V14.2992Z"
+              fill="white"
+            />
+          </svg>
+        </a>
+        <a href="" aria-label="link linkedin">
+          <svg
+            width="23"
+            height="22"
+            viewBox="0 0 23 22"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+          >
+            <rect
+              x="0.0498047"
+              y="0.0683594"
+              width="22.9008"
+              height="23.0287"
+              fill="url(#pattern0)"
+            />
+            <defs>
+              <pattern
+                id="pattern0"
+                patternContentUnits="objectBoundingBox"
+                width="1"
+                height="1"
+              >
+                <use
+                  xlink:href="#image0_309_576"
+                  transform="scale(0.0018622 0.00185185)"
+                />
+              </pattern>
+              <image
+                id="image0_309_576"
+                width="537"
+                height="540"
+                xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAhkAAAIcCAYAAABb17w4AAAACXBIWXMAAC4jAAAuIwF4pT92AAAGAGlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS42LWMxNDAgNzkuMTYwNDUxLCAyMDE3LzA1LzA2LTAxOjA4OjIxICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtbG5zOmRjPSJodHRwOi8vcHVybC5vcmcvZGMvZWxlbWVudHMvMS4xLyIgeG1sbnM6cGhvdG9zaG9wPSJodHRwOi8vbnMuYWRvYmUuY29tL3Bob3Rvc2hvcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RFdnQ9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZUV2ZW50IyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ0MgMjAxOCAoTWFjaW50b3NoKSIgeG1wOkNyZWF0ZURhdGU9IjIwMTktMDYtMTFUMDY6NTg6NDQrMDg6MDAiIHhtcDpNb2RpZnlEYXRlPSIyMDE5LTA3LTE3VDEwOjM2OjI2KzA4OjAwIiB4bXA6TWV0YWRhdGFEYXRlPSIyMDE5LTA3LTE3VDEwOjM2OjI2KzA4OjAwIiBkYzpmb3JtYXQ9ImltYWdlL3BuZyIgcGhvdG9zaG9wOkNvbG9yTW9kZT0iMyIgcGhvdG9zaG9wOklDQ1Byb2ZpbGU9InNSR0IgSUVDNjE5NjYtMi4xIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOjliMTcwMjU5LTNiOTEtNDVlZC1iNTA1LTRhMDJjNTE2ZTdlYyIgeG1wTU06RG9jdW1lbnRJRD0iYWRvYmU6ZG9jaWQ6cGhvdG9zaG9wOjhjMzg2NWQwLWRlMzAtNjA0MS04MDA3LTZkZTQ5MWY2MzQ3ZCIgeG1wTU06T3JpZ2luYWxEb2N1bWVudElEPSJ4bXAuZGlkOmE2NTVjNGNiLThiNmYtNGEwYi04ZDcxLTgzNzg5NDBkNjFiZiI+IDx4bXBNTTpIaXN0b3J5PiA8cmRmOlNlcT4gPHJkZjpsaSBzdEV2dDphY3Rpb249ImNyZWF0ZWQiIHN0RXZ0Omluc3RhbmNlSUQ9InhtcC5paWQ6YTY1NWM0Y2ItOGI2Zi00YTBiLThkNzEtODM3ODk0MGQ2MWJmIiBzdEV2dDp3aGVuPSIyMDE5LTA2LTExVDA2OjU4OjQ0KzA4OjAwIiBzdEV2dDpzb2Z0d2FyZUFnZW50PSJBZG9iZSBQaG90b3Nob3AgQ0MgMjAxOCAoTWFjaW50b3NoKSIvPiA8cmRmOmxpIHN0RXZ0OmFjdGlvbj0ic2F2ZWQiIHN0RXZ0Omluc3RhbmNlSUQ9InhtcC5paWQ6OWIxNzAyNTktM2I5MS00NWVkLWI1MDUtNGEwMmM1MTZlN2VjIiBzdEV2dDp3aGVuPSIyMDE5LTA3LTE3VDEwOjM2OjI2KzA4OjAwIiBzdEV2dDpzb2Z0d2FyZUFnZW50PSJBZG9iZSBQaG90b3Nob3AgQ0MgMjAxOCAoTWFjaW50b3NoKSIgc3RFdnQ6Y2hhbmdlZD0iLyIvPiA8L3JkZjpTZXE+IDwveG1wTU06SGlzdG9yeT4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz6XZO7pAAAZmElEQVR4nO3dz3EbZ4LG4VdTvosbAbk34yRMBKIDQJkZCD4Zt6UjMCeCoW+4DRjB0kYApiIY8ITjUBEsGYH2gKZFy6TEP/3hQ3c/TxVLtiyTrzWq0U/999XHjx9T02i23Esybj72mo9xpTkA0FXXSVZ3vl2t55PramuSvNp2ZIxmy4Mkh3c+9rc6AACG40M2wXGe5GI9n1xt84tvJTKaoxXT5uNN8S8IANznMskiyWIbRzmKRsZothwnOU7yrtgXAQCe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"
+              />
+            </defs>
+          </svg>
+        </a>
+        <a href="" aria-label="link wa">
+          <svg
+            width="25"
+            height="25"
+            viewBox="0 0 25 25"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M12.5 24.2188C18.5406 24.2188 23.4375 19.3219 23.4375 13.2812C23.4375 7.24063 18.5406 2.34375 12.5 2.34375C6.45938 2.34375 1.5625 7.24063 1.5625 13.2812C1.5625 15.2429 2.07891 17.0839 2.98318 18.6758L1.5625 24.2188L7.27723 22.8936C8.82922 23.7386 10.6085 24.2188 12.5 24.2188ZM12.5 22.5361C17.6113 22.5361 21.7548 18.3926 21.7548 13.2812C21.7548 8.17 17.6113 4.02645 12.5 4.02645C7.38871 4.02645 3.2452 8.17 3.2452 13.2812C3.2452 15.2548 3.86289 17.084 4.9155 18.5861L4.08654 21.6947L7.24995 20.9038C8.74172 21.9333 10.5505 22.5361 12.5 22.5361Z"
+              fill="#BFC8D0"
+            />
+            <path
+              d="M21.875 12.5C21.875 17.6777 17.6777 21.875 12.5 21.875C10.5252 21.875 8.69289 21.2644 7.18177 20.2216L3.97727 21.0227L4.817 17.8738C3.75072 16.3521 3.125 14.4991 3.125 12.5C3.125 7.32233 7.32233 3.125 12.5 3.125C17.6777 3.125 21.875 7.32233 21.875 12.5Z"
+              fill="url(#paint0_linear_672_224)"
+            />
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M12.5 23.4375C18.5406 23.4375 23.4375 18.5406 23.4375 12.5C23.4375 6.45938 18.5406 1.5625 12.5 1.5625C6.45938 1.5625 1.5625 6.45938 1.5625 12.5C1.5625 14.4616 2.07891 16.3027 2.98318 17.8945L1.5625 23.4375L7.27723 22.1123C8.82922 22.9573 10.6085 23.4375 12.5 23.4375ZM12.5 21.7548C17.6113 21.7548 21.7548 17.6113 21.7548 12.5C21.7548 7.38871 17.6113 3.2452 12.5 3.2452C7.38871 3.2452 3.2452 7.38871 3.2452 12.5C3.2452 14.4735 3.86289 16.3027 4.9155 17.8048L4.08654 20.9134L7.24995 20.1226C8.74172 21.152 10.5505 21.7548 12.5 21.7548Z"
+              fill="white"
+            />
+            <path
+              d="M9.76562 7.42245C9.50563 6.90012 9.10664 6.94636 8.70367 6.94636C7.98344 6.94636 6.86035 7.80908 6.86035 9.41472C6.86035 10.7306 7.4402 12.171 9.39406 14.3257C11.2797 16.4053 13.7573 17.481 15.8142 17.4443C17.8711 17.4078 18.2943 15.6377 18.2943 15.04C18.2943 14.775 18.1298 14.6428 18.0166 14.6069C17.3157 14.2705 16.0229 13.6437 15.7287 13.526C15.4346 13.4082 15.281 13.5675 15.1855 13.6542C14.9188 13.9083 14.3901 14.6575 14.209 14.826C14.028 14.9946 13.758 14.9092 13.6457 14.8456C13.2323 14.6797 12.1116 14.1812 11.2184 13.3152C10.1135 12.2442 10.0487 11.8757 9.84055 11.5478C9.67406 11.2853 9.79625 11.1244 9.85719 11.054C10.0952 10.7794 10.4239 10.3553 10.5713 10.1446C10.7187 9.93386 10.6017 9.61394 10.5315 9.41472C10.2295 8.55769 9.97367 7.84027 9.76562 7.42245Z"
+              fill="white"
+            />
+            <defs>
+              <linearGradient
+                id="paint0_linear_672_224"
+                x1="20.7031"
+                y1="5.46875"
+                x2="3.125"
+                y2="21.875"
+                gradientUnits="userSpaceOnUse"
+              >
+                <stop stop-color="#5BD066" />
+                <stop offset="1" stop-color="#27B43E" />
+              </linearGradient>
+            </defs>
+          </svg>
+        </a>
+        <a href="" aria-label="link telegram">
+          <svg
+            width="22"
+            height="22"
+            viewBox="0 0 22 22"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g clip-path="url(#clip0_309_589)">
+              <path
+                d="M22 11C22 17.0133 17.0133 22 11 22C4.98667 22 0 17.0133 0 11C0 4.98667 4.98667 0 11 0C17.0133 0 22 4.98667 22 11Z"
+                fill="url(#paint0_linear_309_589)"
+              />
+              <path
+                d="M8.94714 15.9864C8.6538 15.9864 8.6538 15.8397 8.50714 15.5464L7.48047 12.1731L13.9338 8.06641L14.6671 8.21307L14.0805 9.97307L8.94714 15.9864Z"
+                fill="#C8DAEA"
+              />
+              <path
+                d="M8.94629 15.9873C9.23962 15.9873 9.38629 15.8407 9.53296 15.694C9.82629 15.4007 12.7596 12.4673 12.7596 12.4673L10.9996 12.0273L9.23962 13.2007L8.94629 15.9873Z"
+                fill="#A9C9DD"
+              />
+              <path
+                d="M9.09363 13.1992L13.4936 16.4258C13.9336 16.7192 14.3736 16.5725 14.5203 15.9858L16.2803 7.47917C16.427 6.74583 15.987 6.4525 15.547 6.59917L4.98697 10.7058C4.25363 10.9992 4.4003 11.4392 4.8403 11.5858L7.62697 12.4658L13.9336 8.50583C14.227 8.35917 14.5203 8.35917 14.227 8.6525L9.09363 13.1992Z"
+                fill="url(#paint1_linear_309_589)"
+              />
+            </g>
+            <defs>
+              <linearGradient
+                id="paint0_linear_309_589"
+                x1="14.2313"
+                y1="3.48568"
+                x2="8.72212"
+                y2="16.3007"
+                gradientUnits="userSpaceOnUse"
+              >
+                <stop stop-color="#37AEE2" />
+                <stop offset="1" stop-color="#1E96C8" />
+              </linearGradient>
+              <linearGradient
+                id="paint1_linear_309_589"
+                x1="11.8029"
+                y1="11.3794"
+                x2="14.0885"
+                y2="15.0384"
+                gradientUnits="userSpaceOnUse"
+              >
+                <stop stop-color="#EFF7FC" />
+                <stop offset="1" stop-color="white" />
+              </linearGradient>
+              <clipPath id="clip0_309_589">
+                <rect width="22" height="22" fill="white" />
+              </clipPath>
+            </defs>
+          </svg>
+        </a>
+      </div>
+      <div class="footer-content">
+        <a href="#">Terms Of Use</a>
+        <a href="#">Accessibility</a>
+        <a href="#">Privacy & Cookies Notice</a>
+        <a href="#">FAQs</a>
+      </div>
+      <div class="footer-text">
+        <p>Design by TriBuwono from Indonesia</p>
+      </div>
+    </footer>
+    <script>
+      document.addEventListener('DOMContentLoaded', function () {
+        new Splide('.splide', {
+          type: 'loop',
+          perPage: 7,
+          perMove: 1,
+          arrows: false, 
+          pagination: false, 
+          pauseOnHover: false, 
+          breakpoints: {
+            200: {
+              perPage: 1,
+            },
+            300: {
+              perPage: 2,
+            },
+            400: {
+              perPage: 2,
+            },
+            500: {
+              perPage: 3,
+            },
+            600: {
+              perPage: 4,
+            },
+            800: {
+              perPage: 5,
+            },
+          },
+        }).mount();
+      });
+    </script>    
+    <script>
+      window.addEventListener("load", function () {
+        var nav2 = document.getElementById("nav2");
+        var myDiv = document.getElementById("nav2");
+
+        var isMouseDown = false;
+        var startX;
+        var scrollLeft;
+
+        function updateNavPosition() {
+          if (window.scrollY >= 200) {
+            nav2.style.position = "fixed";
+          } else {
+            nav2.style.position = "static";
+          }
+        }
+
+        function handleScroll(event) {
+          if (!isMouseDown) return;
+
+          var deltaX = event.clientX - startX;
+          myDiv.scrollLeft = scrollLeft - deltaX;
+          event.preventDefault();
+        }
+
+        updateNavPosition();
+
+        window.addEventListener("scroll", updateNavPosition);
+
+        myDiv.addEventListener("mousedown", function (event) {
+          isMouseDown = true;
+          startX = event.clientX;
+          scrollLeft = myDiv.scrollLeft;
+          event.preventDefault();
+        });
+
+        myDiv.addEventListener("mouseup", function () {
+          isMouseDown = false;
+        });
+
+        myDiv.addEventListener("mousemove", handleScroll);
+      });
+
+      window.addEventListener("scroll", function () {
+        var panah = document.getElementById("panah");
+        if (window.pageYOffset > 0) {
+          panah.style.display = "block";
+        } else {
+          panah.style.display = "none";
+        }
+      });
+
+      document.getElementById("panah").addEventListener("click", function () {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      });
+
+      function mod() {
+        var content = document.getElementById("modal");
+        content.style.display = "block";
+      }
+
+      function mod2() {
+        var content = document.getElementById("modal");
+        content.style.display = "none";
+      }
+    </script>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        loop: true,
+        spaceBetween: 10,
+        slidesPerView: 4,
+        freeMode: true,
+        watchSlidesProgress: true,
+        autoplay: {
+          delay: 3000,
+          disableOnInteraction: false,
+        },
+      });
+
+      var swiper2 = new Swiper(".mySwiper2", {
+        loop: true,
+        spaceBetween: 10,
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        thumbs: {
+          swiper: swiper,
+        },
+        autoplay: {
+          delay: 1500,
+          disableOnInteraction: false,
+        },
+      });
+    </script>
+  </body>
+</html>
